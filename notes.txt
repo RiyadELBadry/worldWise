@@ -1,0 +1,53 @@
+To Install Vite Type:
+npm create vite@4
+--------------------------------------------------------------------------------------
+and open to install the module..type:
+npm i
+--------------------------------------------------------------------------------------
+to install eslint and it's packedges...type:
+npm install eslint vite-plugin-eslint eslint-config-react-app --save-dev
+--------------------------------------------------------------------------------------
+to install React Router...type:
+npm i react-router-dom@6
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+To Make nisted route open and closing the route tag and write in the place "oulet"
+
+
+
+--------------------------------------------------------------------------------------
+So to use params with React Router,
+we basically do it in three steps.
+So first we create a new route,
+then we link to that route,
+and then in that route we read the state from the URL.
+
+useParams to get the data from URL
+--------------------------------------------------------------------------------------
+<Route index element={<Navigate replace to="cities" />} />
+
+We Can Add this to out Route open and closing tag for on clicking the button run the url in this route
+--------------------------------------------------------------------------------------
+const navigate = useNavigate();
+----------
+navigate(-1);
+
+I can add this in submit action for return back on step 
+--------------------------------------------------------------------------------------
+npm i react-datepicker
+install date formator
+--------------------------------------------------------------------------------------
+--------------------------- this three steps to make context -------------------------
+const AuthContext = createContext();
+
+function AuthProvider({ children }) {
+  return <AuthContext.Provider>{children}</AuthContext.Provider>;
+}
+
+function useAuth() {
+  const context = useContext(AuthContext);
+  if (context === undefined)
+    throw new Error("AuthContext was used outside AuthProvider");
+}
+

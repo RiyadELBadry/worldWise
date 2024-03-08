@@ -1,0 +1,52 @@
+{
+  "cities": [
+    {
+      "cityName": "Numancia de la Sagra",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-08-21T16:09:18.129Z",
+      "notes": "test website",
+      "position": {
+        "lat": "40.07604086066279",
+        "lng": "-3.8204335753175953"
+      },
+      "id": 98443209
+    },
+    {
+      "cityName": "Murzuq",
+      "country": "Libya",
+      "emoji": "🇱🇾",
+      "date": "2023-08-24T16:22:18.000Z",
+      "notes": "test",
+      "position": {
+        "lat": "26.954536090355056",
+        "lng": "16.248809706958134"
+      },
+      "id": 98443210
+    },
+    {
+      "cityName": "Huete",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-09-02T12:46:59.819Z",
+      "notes": "",
+      "position": {
+        "lat": "40.23741414401979",
+        "lng": "-2.7182620313693233"
+      },
+      "id": 98443211
+    },
+    {
+      "cityName": "Al ‘Ashir min Ramaḑan",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2023-10-20T21:32:03.000Z",
+      "notes": "tesy",
+      "position": {
+        "lat": "30.304743327006438",
+        "lng": "31.391104052685805"
+      },
+      "id": 98443212
+    }
+  ]
+}
