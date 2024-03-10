@@ -6,7 +6,8 @@ import {
   useReducer,
 } from "react";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL =
+  "https://my-json-server.typicode.com/RiyadELBadry/worldWise/posts";
 
 const CitiesContext = createContext();
 
@@ -139,8 +140,7 @@ function CitiesProvider({ children }) {
         getCity,
         createCity,
         deleteCity,
-      }}
-    >
+      }}>
       {children}
     </CitiesContext.Provider>
   );
